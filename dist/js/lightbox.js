@@ -51,7 +51,7 @@
     positionFromTop: 50,
     resizeDuration: 700,
     showImageNumberLabel: true,
-    wrapAround: true,
+    wrapAround: false,
     disableScrolling: false,
     /*
     Sanitize Title
