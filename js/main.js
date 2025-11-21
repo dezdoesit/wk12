@@ -45,3 +45,13 @@ function showAll() {
         allDivs[i].style.display = "inline-block";
     }
 }
+
+document.addEventListener('lightbox:open', () => {
+    document.body.classList.add('lightbox-open');
+    console.log('Lightbox opened: caption color should now change');
+});
+
+document.addEventListener('lightbox:close', () => {
+    document.body.classList.remove('lightbox-open');
+    console.log('Lightbox closed: caption color reset');
+});
