@@ -165,6 +165,16 @@ button:hover {
     opacity: 1;
     transform: scale(1);
   }
+
+  /* Caption Styling When Lightbox Enabled */
+  .caption, figcaption {
+    transition: color 0.3s ease;
+  }
+
+  #modal.show .caption,
+  #modal.show figcaption {
+    color: #ff0000; 
+  }
   
   
 
