@@ -176,9 +176,16 @@ button:hover {
     color: #ff0000; 
   }
 
-  body.lightbox-open #lightbox .lb-caption {
-    color: #ff0000; 
+  #lightbox .lb-caption{
+    color: #c800ff;
   }
+
+  #lightbox .lb-number {
+    color: #000000;
+  }
+
+
+
   
   
 
